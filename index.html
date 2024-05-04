@@ -1,7 +1,55 @@
-<html>
-    <head>
-    <link rel="stylesheet" href="style.css">
-    </head>
-    <h1>Billy's Portfolio</h1>
-    <img src="BioPic.jpg">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Your Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container text-center mt-5">
+        <h1 class="mb-5">Welcome to My Portfolio</h1>
+        <section id="video-intro" class="mb-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="bio" class="mb-5">
+            <h2>Bio</h2>
+            <p>Minimum of 50 words about yourself, your skills, and an overview of your work. Contact me via: [Your preferred contact method].</p>
+        </section>
+        <section id="photo" class="mb-5">
+            <h2>Photo</h2>
+            <img src="your_photo.jpg" alt="Your Photo" class="img-thumbnail">
+        </section>
+        <section id="links" class="mb-5">
+            <h2>Links</h2>
+            <p>GitHub: <a href="https://github.com/YOUR_USERNAME" class="btn btn-outline-primary">YOUR_USERNAME</a></p>
+            <p>LinkedIn: <a href="YOUR_LINKEDIN_URL" class="btn btn-outline-primary">LinkedIn</a></p>
+        </section>
+    </div>
+    <footer class="bg-light text-center text-lg-start mt-auto">
+        <div class="text-center p-3">
+            © 2024 Your Name | All rights reserved
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
